@@ -3,7 +3,7 @@ const FULL_TIME_HOURS = 8;
 const PART_TIME_HOURS = 4;
 
 let workType = Math.floor(Math.random() * 3);
-let workHours = 0;
+let workHours = 0; 
 
 switch (workType) {
     case 1:
